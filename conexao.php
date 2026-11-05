@@ -7,12 +7,15 @@
     $bd = "empresa";
 
     // Chamar o comando para CONECTAR
-    $result = mysqli_connect($servidor, $usuario, $senha, $bd);
+    $conexao = mysqli_connect($servidor, $usuario, $senha, $bd);
 
     // Se a conexão falhar, mostrar o erro e parar
-    if (!$result) {
-        die("Erro ao conectar: " . mysqli_connect_error());
+    if ($conexao) {
+        //echo "Conexao realizada com sucesso";
+    }
+    else{
+        echo mysqli_error($conexao);
     }
 
-    // echo "Conexao realizada com sucesso";
+    
 ?>
