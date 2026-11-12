@@ -53,14 +53,10 @@
                 <input type="checkbox" name="ativo" <?php if ($funcionario['ativo']==1){echo 'checked' ; } ?>>
             </p>
             <p>
-            <input type="hidden" name="id" value="<?php echo $id; ?>">
-            </p>
-            <p>
+                <input type="hidden" name="id" value="<?php echo $id; ?>">
                 <input type="submit" value="Atualizar">
             </p>
-
         </form>
     </div>
-
 </body>
 </html>
