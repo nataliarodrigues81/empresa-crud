@@ -22,6 +22,17 @@
           <a class="dropdown-item" href="/IEC2/empresa_crud/funcionario/listar.php">Listar</a>
         </div>
       </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Departamentos
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+          <a class="dropdown-item" href="/IEC2/empresa_crud/departamento/adicionar.php">Adicionar</a>
+          <a class="dropdown-item" href="/IEC2/empresa_crud/departamento/listar.php">Listar</a>
+        </div>
+      </li>
     </ul>
   </div>
 </nav>
