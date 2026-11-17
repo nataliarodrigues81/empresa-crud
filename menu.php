@@ -33,6 +33,17 @@
           <a class="dropdown-item" href="/IEC2/empresa_crud/departamento/listar.php">Listar</a>
         </div>
       </li>
+
+            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Produtos
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+          <a class="dropdown-item" href="/IEC2/empresa_crud/produto/adicionar.php">Adicionar</a>
+          <a class="dropdown-item" href="/IEC2/empresa_crud/produto/listar.php">Listar</a>
+        </div>
+      </li>
     </ul>
   </div>
 </nav>
