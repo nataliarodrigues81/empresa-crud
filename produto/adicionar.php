@@ -29,7 +29,7 @@
 
             <p>
                 <label for="preco">Preço:</label>
-                <input type="number" id="preco" name="preco" required>
+                <input type="number" id="preco" name="preco" step="0.01" required>
             </p>
 
             <p>
